@@ -60,6 +60,8 @@ const StyledHeader = styled.div`
 `;
 const StyledBanner = styled.div`
 background-image: url(${config.bg});
+background-repeat: no-repeat; 
+background-size: cover;
 height: 230px;
 `
 function Header() {
